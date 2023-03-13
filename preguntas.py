@@ -14,14 +14,132 @@ Utilice el archivo `data.csv` para resolver las preguntas.
 
 
 def pregunta_01():
-    """
-    Retorne la suma de la segunda columna.
+    with open('/Datos.txt', 'r') as archivo:
+         datos = archivo.read()
+    filas = datos.split('\n') 
+    fila0 = filas[0]
+    columna0 = fila0.split() 
+    D1 = int(columna0[1]) 
+    fila1 = filas[1]
+    columna1 = fila1.split() 
+    D2 = int(columna1[1]) 
+    fila2 = filas[2]
+    columna2 = fila2.split() 
+    D3 = int(columna2[1]) 
+    fila3 = filas[3]
+    columna3 = fila3.split() 
+    D4 = int(columna3[1])
+    fila4 = filas[4]
+    columna4 = fila4.split() 
+    D5 = int(columna4[1])
+    fila5 = filas[5]
+    columna5 = fila5.split() 
+    D6 = int(columna5[1])
+    fila6 = filas[6]
+    columna6 = fila6.split() 
+    D7 = int(columna6[1])
+    fila7 = filas[7]
+    columna7 = fila7.split() 
+    D8 = int(columna7[1])
+    fila8 = filas[8]
+    columna8 = fila8.split() 
+    D9 = int(columna8[1])
+    fila9 = filas[9]
+    columna9 = fila9.split() 
+    D10 = int(columna9[1])
+    fila10 = filas[10]
+    columna10 = fila10.split() 
+    D11 = int(columna10[1])
+    fila11 = filas[11]
+    columna11 = fila11.split() 
+    D12 = int(columna11[1])
+    fila12 = filas[12]
+    columna12 = fila12.split() 
+    D13 = int(columna12[1])
+    fila13 = filas[13]
+    columna13 = fila13.split() 
+    D14 = int(columna13[1])
+    fila14 = filas[14]
+    columna14 = fila14.split() 
+    D15 = int(columna14[1])
+    fila15 = filas[15]
+    columna15 = fila15.split() 
+    D16 = int(columna15[1])
+    fila16 = filas[16]
+    columna16 = fila16.split() 
+    D17 = int(columna16[1])
+    fila17 = filas[17]
+    columna17 = fila17.split() 
+    D18 = int(columna17[1])
+    fila18 = filas[18]
+    columna18 = fila18.split() 
+    D19 = int(columna18[1])
+    fila19 = filas[19]
+    columna19 = fila19.split() 
+    D20 = int(columna19[1])
+    fila20 = filas[20]
+    columna20 = fila20.split() 
+    D21 = int(columna20[1])
+    fila21 = filas[21]
+    columna21 = fila21.split() 
+    D22 = int(columna21[1])
+    fila22 = filas[22]
+    columna22 = fila22.split() 
+    D23 = int(columna22[1])
+    fila23 = filas[23]
+    columna23 = fila23.split() 
+    D24 = int(columna23[1])
+    fila24 = filas[24]
+    columna24 = fila24.split() 
+    D25 = int(columna24[1])
+    fila25 = filas[25]
+    columna25 = fila25.split() 
+    D26 = int(columna25[1])
+    fila26 = filas[26]
+    columna26 = fila26.split() 
+    D27 = int(columna26[1])
+    fila27 = filas[27]
+    columna27 = fila27.split() 
+    D28 = int(columna27[1])
+    fila28 = filas[28]
+    columna28 = fila28.split() 
+    D29 = int(columna28[1])
+    fila29 = filas[29]
+    columna29 = fila29.split() 
+    D30 = int(columna29[1])
+    fila30 = filas[30]
+    columna30 = fila30.split() 
+    D31 = int(columna30[1])
+    fila31 = filas[31]
+    columna31 = fila31.split() 
+    D32 = int(columna31[1])
+    fila32 = filas[32]
+    columna32 = fila32.split() 
+    D33 = int(columna32[1])
+    fila33 = filas[33]
+    columna33 = fila33.split() 
+    D34 = int(columna33[1])
+    fila34 = filas[34]
+    columna34 = fila34.split() 
+    D35 = int(columna34[1])
+    fila35 = filas[35]
+    columna35 = fila35.split() 
+    D36 = int(columna35[1])
+    fila36 = filas[36]
+    columna36 = fila36.split() 
+    D37 = int(columna36[1])
+    fila37 = filas[37]
+    columna37 = fila37.split() 
+    D38 = int(columna37[1])
+    fila38 = filas[38]
+    columna38 = fila38.split() 
+    D39 = int(columna38[1])
+    fila39 = filas[39]
+    columna39 = fila39.split() 
+    D40 = int(columna39[1])
 
-    Rta/
-    214
-
-    """
-    return
+    print(D1+D2+D3+D4+D5+D6+D7+D8+D9+D10+D11+D12+D13+D14+D15+D16+D17+D18+D19+D20+D21+D22+D23+D24+D25+D26+D27+D28+D29+D30+D31+D32+D33+D34+D35+D36+D37+D38+D39+D40)        
+     return
 
 
 def pregunta_02():
