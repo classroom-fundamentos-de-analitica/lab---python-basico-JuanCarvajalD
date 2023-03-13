@@ -285,11 +285,7 @@ def pregunta_02():
       else:
         contadorE = contadorE + 1
 
-    print(("A", contadorA) )
-    print(("B", contadorB) )
-    print(("C", contadorC) )
-    print(("D", contadorD) )
-    print(("E", contadorE) )
+    print([("A", contadorA),("B", contadorB),("C", contadorC),("D", contadorD),("E", contadorE)])
     return
 
 
